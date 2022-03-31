@@ -16,3 +16,8 @@ print(type(myFirstName))
 # print(str(a)+b)
 # to print a line multiple times
 print( 10*(myFirstName + "\n"))
+# take input from user and add two numbers
+firstNumber= int(input("enter your first number"))
+secondNumber=int(input("enter your second number"))
+result=(firstNumber+secondNumber)
+print(result)
