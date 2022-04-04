@@ -22,7 +22,18 @@ myTuple = ("John", "Peter", "Vicky")
 x = " =".join(myTuple)
 
 print(x)
-myTuple="AppleBananaOranges"
+myTuple="Apple         Banana Oranges"
 print(myTuple.partition("Banana"))
 print(myTuple.partition("Apple"))
 print(myTuple.partition("Oranges"))
+print(myTuple.replace("Oranges","Grapes"))
+print(myTuple.split( ))
+myStr="    I like Apples !!!!!!!    "
+print(myStr.strip( ' Il!'))
+print(myStr.swapcase( ))
+print(myStr.title() )
+myTable=(myStr.maketrans("ik","ov") )
+print(myStr.translate(myTable))
+print(myStr.zfill(40) )
+print(len( myStr) )
+
