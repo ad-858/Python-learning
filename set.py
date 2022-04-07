@@ -1,0 +1,17 @@
+set1={1,2,3,4,5}
+set2={1,2,3,7}
+print(set)
+set.add(4)
+x=set1.difference(set2)
+set1.difference_update(set2)
+print(set1)
+x1=set1.intersection(set2)
+set1.intersection_update(set2)
+print(set1)
+print(set1.isdisjoint(set2)
+)
+print(set1.issuperset(set2))
+set1.pop()
+set1.update(set2)
+z=set1.symmetric_difference(set2)
+print(z)
